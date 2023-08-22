@@ -34,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="734"/>
+            <point key="canvasLocation" x="135" y="748"/>
         </scene>
         <!--Second-->
         <scene sceneID="n4n-VR-dvc">
@@ -62,7 +62,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JYz-41-iiI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="734"/>
+            <point key="canvasLocation" x="920" y="748"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Zhb-00-5XQ">
+            <objects>
+                <viewController id="YCg-Pp-Z6U" customClass="ThirdViewController" customModule="DataTransferTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c1I-TI-pLv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q6O-3i-esT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pWj-d5-RwU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Te-H7-dK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2616" y="748"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SNL-JT-jnx">
@@ -77,6 +93,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="bLq-QG-7Ll"/>
                         <segue destination="zbi-4G-pId" kind="relationship" relationship="viewControllers" id="4fy-1V-2op"/>
+                        <segue destination="L5g-ba-6jg" kind="relationship" relationship="viewControllers" id="gih-yU-K7P"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSE-7M-GgF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -114,10 +131,30 @@
             </objects>
             <point key="canvasLocation" x="-666" y="4"/>
         </scene>
+        <!--Third-->
+        <scene sceneID="N1c-8p-fDs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L5g-ba-6jg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Third" image="3.circle.fill" catalog="system" id="c6S-hy-CzK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="4Bs-Jy-BTg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YCg-Pp-Z6U" kind="relationship" relationship="rootViewController" id="2wb-Ru-IdV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYu-WN-1gW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799" y="748"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="123"/>
         <image name="2.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
