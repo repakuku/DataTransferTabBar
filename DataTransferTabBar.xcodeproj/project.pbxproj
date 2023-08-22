@@ -16,6 +16,7 @@
 		07B59B3A2A95244700BF6B05 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B59B392A95244700BF6B05 /* FirstViewController.swift */; };
 		07B59B3C2A95244F00BF6B05 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B59B3B2A95244F00BF6B05 /* SecondViewController.swift */; };
 		07B59B3E2A95264900BF6B05 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B59B3D2A95264900BF6B05 /* ThirdViewController.swift */; };
+		07B59B402A9527D100BF6B05 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B59B3F2A9527D100BF6B05 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		07B59B392A95244700BF6B05 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		07B59B3B2A95244F00BF6B05 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		07B59B3D2A95264900BF6B05 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		07B59B3F2A9527D100BF6B05 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				07B59B392A95244700BF6B05 /* FirstViewController.swift */,
 				07B59B3B2A95244F00BF6B05 /* SecondViewController.swift */,
 				07B59B3D2A95264900BF6B05 /* ThirdViewController.swift */,
+				07B59B3F2A9527D100BF6B05 /* TabBarViewController.swift */,
 				07B59B2B2A951D8A00BF6B05 /* Main.storyboard */,
 				07B59B2E2A951D8B00BF6B05 /* Assets.xcassets */,
 				07B59B302A951D8B00BF6B05 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				07B59B262A951D8A00BF6B05 /* AppDelegate.swift in Sources */,
 				07B59B282A951D8A00BF6B05 /* SceneDelegate.swift in Sources */,
 				07B59B3C2A95244F00BF6B05 /* SecondViewController.swift in Sources */,
+				07B59B402A9527D100BF6B05 /* TabBarViewController.swift in Sources */,
 				07B59B3E2A95264900BF6B05 /* ThirdViewController.swift in Sources */,
 				07B59B3A2A95244700BF6B05 /* FirstViewController.swift in Sources */,
 			);

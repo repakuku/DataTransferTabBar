@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="2616" y="748"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="SNL-JT-jnx">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Be0-ao-bkr" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Be0-ao-bkr" customClass="TabBarViewController" customModule="DataTransferTabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Met-EB-GOf">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
